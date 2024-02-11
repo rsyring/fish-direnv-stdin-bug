@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  fish-shell:
+    build: .
+    image: ubuntu-fish:latest
+    command: fish
